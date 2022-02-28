@@ -39,7 +39,6 @@ test("One yen should be 0,00625489 Pound", function(){
 
     // if vulueinYen / 127.9€ is the value in €, that value in € * 0.8 is the value in GBP
     let valueInEuro = 3.5 / 127.9;
-
     const expected =valueInEuro * 0.8; 
     
     // this is the comparison for the unit test
